@@ -48,7 +48,7 @@ export const AddTicketForm = ({ handleOnSubmit, handleOnChange, frmDt, frmErr })
 							/>
 					</Form.Group>
                     <br />
-                    <Button type="submit" variant="info" block>Login</Button>
+                    <Button type="submit" variant="info" className="col-12">Login</Button>
                 </Form>
         </Jumbotron>
     )

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Jumbotron, Form, Row, Col, Button } from 'react-bootstrap';
+import { Form, Row, Col, Button, Jumbotron } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import './add-ticket-form.style.css';
 
@@ -17,7 +17,7 @@ export const AddTicketForm = ({ handleOnSubmit, handleOnChange, frmDt, frmErr })
 								name="subject"
 								placeholder="Subject"
                                 onChange={handleOnChange}
-                                value={frmDt.subject}						
+                                value={frmDt.subject}					
 						/>
                         <Form.Text className="text-danger">{frmErr.subject && "subject is required."}</Form.Text>
                         </Col>
